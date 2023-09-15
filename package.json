@@ -1,0 +1,38 @@
+{
+	"name": "firebase-auth-middleware",
+	"version": "1.0.0",
+	"description": "Docker for getting metadata from a URL",
+	"main": "index.js",
+	"scripts": {
+		"start": "ts-node index.ts",
+		"dev": "nodemon index.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ExplodedCode/Firebase-Auth-Middleware.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ExplodedCode/Firebase-Auth-Middleware/issues"
+	},
+	"homepage": "https://github.com/ExplodedCode/Firebase-Auth-Middleware#readme",
+	"dependencies": {
+		"@supabase/supabase-js": "^2.33.2",
+		"body-parser": "^1.20.2",
+		"cors": "^2.8.5",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"express-serve-static-core": "^0.1.1",
+		"firebase-scrypt": "^2.2.0",
+		"pg": "^8.11.3",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.2.2"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.10",
+		"@types/express": "^4.17.12",
+		"@types/express-serve-static-core": "^4.17.21",
+		"@types/node": "^18.11.18"
+	}
+}
